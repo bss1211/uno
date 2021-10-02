@@ -2,3 +2,12 @@ def my_function():
   print("Hello from a function")
 
 my_function()
+
+
+def my_function(country = "India"):
+  print("I am from " + country)
+
+my_function("Dubai")
+my_function("Fiji")
+my_function()
+my_function("Nepal")
