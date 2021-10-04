@@ -11,3 +11,11 @@ my_function("Dubai")
 my_function("Fiji")
 my_function()
 my_function("Nepal")
+
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["mango", "cherry", "banana"]
+
+my_function(fruits)
