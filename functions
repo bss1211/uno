@@ -29,3 +29,8 @@ print(my_function(5))
 print(my_function(9))
 
 
+def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]
+
