@@ -33,4 +33,9 @@ def functionname( parameters ):
    "function_docstring"
    function_suite
    return [expression]
+   
+total=sum(10, 20) 
+print(total)
+total=sum(5, sum(10, 20))
+print(total   
 
