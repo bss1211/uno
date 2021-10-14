@@ -46,4 +46,9 @@ def functionname( parameters ):
    
 def fun():
   print("Welcome!!")   
+  
    
+def printme( str ):
+   "This prints a passed string into this function"
+   print str
+   return   
