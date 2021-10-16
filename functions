@@ -58,3 +58,7 @@ def printme( str ):
         print("even")
     else:
         print("odd")  
+        
+ def myFun(x, y=50):
+    print("x: ", x)
+    print("y: ", y)       
