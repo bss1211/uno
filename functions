@@ -62,3 +62,6 @@ def printme( str ):
  def myFun(x, y=50):
     print("x: ", x)
     print("y: ", y)       
+    
+ def student(firstname, lastname):
+    print(firstname, lastname)   
