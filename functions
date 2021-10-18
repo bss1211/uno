@@ -65,3 +65,7 @@ def printme( str ):
     
  def student(firstname, lastname):
     print(firstname, lastname)   
+    
+def myFun(*argv):
+    for arg in argv:
+        print(arg)    
