@@ -69,3 +69,7 @@ def printme( str ):
 def myFun(*argv):
     for arg in argv:
         print(arg)    
+        
+def myFun(**kwargs):
+    for key, value in kwargs.items():
+        print("%s == %s" % (key, value))        
