@@ -73,3 +73,10 @@ def myFun(*argv):
 def myFun(**kwargs):
     for key, value in kwargs.items():
         print("%s == %s" % (key, value))        
+        
+def greet(*names):
+	i=0
+	print('Hello ', end='')
+	while len(names) > i:
+		print(names[i], end=', ')
+		i+=1        
