@@ -89,3 +89,14 @@ def square_value(num):
  
 print(square_value(2))
 print(square_value(-4))		
+
+
+def myFun(x):
+    x[0] = 20
+ 
+ 
+# Driver Code (Note that lst is modified
+# after function call.
+lst = [10, 11, 12, 13, 14, 15]
+myFun(lst)
+print(lst)
