@@ -146,3 +146,8 @@ def evenOdd(x):
 # Driver code to call the function
 evenOdd(2)
 evenOdd(3)
+
+def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]
