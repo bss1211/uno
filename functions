@@ -162,3 +162,8 @@ def printinfo( name, age = 35 ):
 # Now you can call printinfo function
 printinfo( age=50, name="niki" )
 printinfo( name="niki" )
+ 
+# *args and **kwargs
+
+def my_sum(a, b):
+    return a + b
