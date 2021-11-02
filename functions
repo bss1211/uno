@@ -167,3 +167,9 @@ printinfo( name="niki" )
 
 def my_sum(a, b):
     return a + b
+
+def addition(*args):
+   result = 0
+   for i in args:
+      result += i
+   return result
