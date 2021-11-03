@@ -173,3 +173,10 @@ def addition(*args):
    for i in args:
       result += i
    return result
+   
+print(addition())
+0
+print(addition(1,4))
+5
+print(addition(1,7,3))
+11   
