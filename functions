@@ -189,3 +189,12 @@ def addition(a, b): #a and b are positional arguments
    return a + b
 print(addition(1))
 TypeError: addition() missing 1 required positional argument: 'b'
+
+def arg_printer(a, b, *args):
+   print(f'a is {a}')
+   print(f'b is {b}')
+   print(f'args are {args}')
+arg_printer(3, 4, 5, 8, 3)
+a is 3
+b is 4
+args are (5, 8, 3
