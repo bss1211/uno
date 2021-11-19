@@ -208,4 +208,8 @@ def addition(a, b, *args, option=True):
       return a + b + result
    else:
       return result
+      
+def get_full_name(first_name, last_name, formatter):
+    return formatter(first_name, last_name)      
+      
 
