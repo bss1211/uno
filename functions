@@ -211,5 +211,8 @@ def addition(a, b, *args, option=True):
       
 def get_full_name(first_name, last_name, formatter):
     return formatter(first_name, last_name)      
+    
+def times(n):
+    return lambda x: x * n    
       
 
