@@ -215,4 +215,8 @@ def get_full_name(first_name, last_name, formatter):
 def times(n):
     return lambda x: x * n    
       
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("krish", "Tommy", "Titus")      
 
