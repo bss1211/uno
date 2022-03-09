@@ -16,6 +16,7 @@ print(p1.age)
 
 # attribute and methods
 # Classes and Instances
+# Corey Schafer Youtube channel
 #Methods : function which is associated with the class
 
 class Employee:
